@@ -1,0 +1,48 @@
+body {
+    background-color: #101728;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    margin: 25px 0 0 25px;
+    font-size: 30px;
+}
+
+nav ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+#plannings ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+    color: black;
+}
+
+#plannings ul li {
+    background-color: white;
+    border-radius: 25px;
+    max-width: 350px;
+    min-height: 250px;
+    padding: 50px;
+}
+
+#plannings ul li a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#plannings ul li p {
+    margin: 25px
+}
