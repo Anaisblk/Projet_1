@@ -46,3 +46,15 @@ nav ul li img {
 #plannings ul li p {
     margin: 25px
 }
+
+/**
+ee
+**/
+
+.planning-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
