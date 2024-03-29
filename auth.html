@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="src/css/base.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/auth.css">
+    <title>S'inscrire</title>
+</head>
+
+<body>
+    <div id="logo">
+        <img src="src/images/logo_blanc.png" alt="logo">
+        <h1>StudentPlanner</h1>
+    </div>
+    <section>
+        <div class="container" id="container">
+            <div class="form-container sign-up">
+                <form>
+                    <h1>Créer un compte</h1>
+                    <input type="text" placeholder="Pseudonyme">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Mot de passe">
+                    <input type="password" placeholder="Confirmation du mot de passe">
+                    <button>S'inscrire</button>
+                </form>
+            </div>
+            <div class="form-container sign-in">
+                <form>
+                    <h1>Connexion</h1>
+                    <input type="email" placeholder="Email ou Pseudonyme">
+                    <input type="password" placeholder="Mot de passe">
+                    <a href="#">Mot de passe oublié ?</a>
+                    <button>Se connecter</button>
+                </form>
+            </div>
+            <div class="toggle-container">
+                <div class="toggle">
+                    <div class="toggle-panel toggle-left">
+                        <h1>Avez-vous déjà un compte ?</h1>
+                        <p>Connectez-vous pour accéder à nos services</p>
+                        <button class="hidden" id="login">Se connecter</button>
+                    </div>
+                    <div class="toggle-panel toggle-right">
+                        <h1>Vous êtes nouveau ?</h1>
+                        <p>Inscrivez-vous et rejoignez-nous dans cette nouvelle aventure</p>
+                        <button class="hidden" id="register">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/scripts/auth-form.js"></script>
+</body>
+
+</html>

@@ -1,3 +1,16 @@
+:root {
+  --primary-color: #323358;
+  --secondary-color: #6C6FD7;
+  --sidebar-color: #111234;
+  --btn-color: #5557B0;
+  --primary-font: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+}
+
 * {
     box-sizing: border-box;
     outline: none;
